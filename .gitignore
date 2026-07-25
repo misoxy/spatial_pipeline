@@ -1,0 +1,23 @@
+# Jupyter autosave folders
+.ipynb_checkpoints/
+
+# HTML exports of the notebooks (GitHub shows the .ipynb directly)
+*.html
+
+# Data and results, these are large and are never pushed
+*.h5ad
+*.gef
+*.tif
+*.tiff
+*.npy
+*.csv
+*.csv.gz
+*.zarr/
+figures/
+proseg_runs/
+*_out2/
+
+# Mac and Python junk
+.DS_Store
+__pycache__/
+*.pyc
